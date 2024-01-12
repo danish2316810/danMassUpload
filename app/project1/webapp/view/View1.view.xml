@@ -1,0 +1,36 @@
+
+<mvc:View
+    controllerName="massupload.project1.controller.View1"
+    	xmlns:l="sap.ui.layout"
+	xmlns:u="sap.ui.unified"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	class="viewPadding">
+
+<Page id="_IDGenPage1" title="Add Student">
+    <content>
+      <VBox id="_IDGenVBox1">
+        <Input id="_IDGenInput1" placeholder="Student ID" value="{/STUDENTS_ID}" />
+        <Input id="_IDGenInput3" placeholder="First Name" value="{/FIRST_NAME}" />
+        <Input id="_IDGenInput2" placeholder="Last Name" value="{/LAST_NAME}" />
+        <Input id="_IDGenInput4" placeholder="DOB" value="{/DOB}" />
+        <Input id="_IDGenInput5" placeholder="Address" value="{/ADDRESS}" />
+
+        <Button id="_IDGenButton1" text="Submit" press="onSubmit" />
+      </VBox>
+    </content>
+
+	
+  </Page>
+</mvc:View>
+
+
+
+
+
+
+
+
+
+
+
